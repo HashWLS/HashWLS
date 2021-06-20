@@ -2,6 +2,10 @@ The datasets and source code of #WLS are for Simple and Efficient  Graph Hash Ke
 
 The steps of running the experiments:
 
+Preparation work
+
+    compile svmtrain in libsvm-matlab, and put the mex file in the same directory as 'main.m'
+
 Graph classification
 
     run main.m
