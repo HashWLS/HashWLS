@@ -1,16 +1,14 @@
-### Hi there 👋
+The datasets and source code of #WLS are for Simple and Efficient  Graph Hash Kernels in WWW 2022.
 
-<!--
-**HashWLS/HashWLS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+The steps of running the experiments:
 
-Here are some ideas to get you started:
+Graph classification
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    run main.m
+    
+All the results are generated under the directory, 'results/'
+
+Parameter Sensitivity
+
+    run draw_parameters.m
+
