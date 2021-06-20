@@ -4,7 +4,8 @@ The steps of running the experiments:
 
 Preparation work
 
-    compile svmtrain in libsvm-matlab by referring to libsvm-matlab/matlab/README, and put the mex file in the same directory as 'main.m'
+    1. compile svmtrain in libsvm-matlab by referring to libsvm-matlab/matlab/README
+    2. put the mex file in the same directory as 'main.m'
 
 Graph classification
 
