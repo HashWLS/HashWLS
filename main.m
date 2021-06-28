@@ -36,5 +36,5 @@ for idataname = 1:length(datanames)
    end
    accs_mean = mean(accs, 3);
    cpus_mean = mean(cpus, 3);
-   save(['results/', dataname, '/', dataname, '_', method, '_sum_results.mat'], 'accs', 'cpus', 'accs_mean', 'cpus_mean')
+   save(['results/', dataname, '/', dataname, '_', method, '_results.mat'], 'accs', 'cpus', 'accs_mean', 'cpus_mean')
 end
