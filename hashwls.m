@@ -62,5 +62,5 @@ for r = 1:iterations
     K = K+(1-squareform(pdist(fingperints{r},'hamming')));
 end
 
-acc = svmtrain(labels,[(1:size(K,1))' K],'-t 4 -v 10 -q -c ', num2str(c));
+acc = svmtrain(labels,[(1:size(K,1))' K], ['-t 4 -v 10 -q -c ', num2str(c)]);
 cpu = toc;
