@@ -6,7 +6,7 @@ datanames = {'BZR', 'COX2', 'DHFR', 'PROTEINS_full', 'AIDS'};
 iterations = 5;
 hashDims = 50:50:300;
 turns = 10;
-cs = 
+
 method = 'hashwls';
 
 accs = zeros(iterations, length(hashDims), turns);
