@@ -20,12 +20,8 @@ for idataname = 1:length(datanames)
    for r = 1:iterations
        for iHash = 1:length(hashDims)
            for iturn = 1:turns
-                if strcmp(dataname, 'COX2')
-                    c = 0.7;
-                else
-                    c = 1;
-                end
-               [accs(r, iHash, iturn), cpus(r, iHash, iturn)] = hashwls(graphs, labels, r, hashDims(iHash),c);
+
+               [accs(r, iHash, iturn), cpus(r, iHash, iturn)] = hashwls(graphs, labels, r, hashDims(iHash));
 
            end
        end
