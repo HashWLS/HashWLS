@@ -1,4 +1,4 @@
-The datasets and source code of #WLS are for Simple and Efficient  Graph Hash Kernels under review of WWW 2022.
+The datasets and source code of #WLS are for Simple and Efficient Hash Kernels for Graphs with Continuous Attributes.
 
 The steps of running the experiments:
 
